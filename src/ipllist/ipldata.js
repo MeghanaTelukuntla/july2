@@ -1,9 +1,8 @@
 
 
-ipl_data.js
 
 
-const Ipl_data=[
+const Ipldata=[
     {
         name:"Chennai Super Kings",
         source:"https://wallpapercave.com/wp/wp3116418.jpg",
@@ -33,7 +32,41 @@ const Ipl_data=[
      trophy:0,
      c_name:"Virat kohli",  
      button:"See More", 
-}
-
+},
+{
+   name:"Delhi captians",
+   source:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx5TSWy8yhIBT-y8si3d25Fl5RCekLrsoTdVBga76g0Xltu_xrmTmFiuQy0gYWn5TRP60&usqp=CAU",
+   trophy:1,
+   c_name:"Rishab pant",  
+   button:"See More",
+},
+{
+    name:"Gujarath Titans",
+    source:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtD1URjAbYJytF2GxymWES7Il11bIxZFf4Rw&s",
+    trophy:1,
+    c_name:"Shubman Gill",  
+    button:"See More",
+},
+{
+    name:"Kolokota Knight Riders",
+    source:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShM0pnud9H2ddn8G_XhBGBMhWpXsUfkEmBJw&s",
+    trophy:3,
+    c_name:"shreyas Iyer",  
+    button:"See More",
+},
+{
+    name:"Rajasthan Royals",
+    source:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7b4WF6urHmgvUm5JGIK_BySRZ9_QxJB74VQ&s",
+    trophy:1,
+    c_name:"Sanju Samson",  
+    button:"See More",
+},
+{
+    name:"Lucknow Super Giants",
+    source:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS61yPneQD0JY-DRhccAE4tp6KvZhgeabZKTg&s",
+    trophy:1,
+    c_name:"KL Rahul",  
+    button:"See More",
+},
 ]
-export default Ipl_data;
+export default Ipldata;
