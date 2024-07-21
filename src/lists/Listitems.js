@@ -1,12 +1,11 @@
  
- import { Fruits } from "./fruitdata";
- const ListItems = () =>{
-  
-    return( <> 
-    {Fruits.map((eachFruit)=>(
-      <li>{eachFruit.name}</li>
-   ))}</>
-    );
- };
+ 
 
- export default ListItems;
+//  const ListItems = (prop)=>{
+//    const {apple,banana,orange}=prop
+//     return <li apple="apple" 
+//    banana="banana"
+//    orange="orange" />
+//  };
+
+//  export default ListItems;

@@ -1,0 +1,9 @@
+.a{
+    border: 2px solid black;
+    margin: 3px;
+}
+.b{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}

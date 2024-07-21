@@ -8,7 +8,7 @@ const Ipl_List=()=>{
             <h3>
         <a href="#home">Home</a>
         <a href="#news">News</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact">Contact</a> 
         <a href="#about">About</a>
         </h3>
         </div>
@@ -21,6 +21,7 @@ const Ipl_List=()=>{
                     <img src={eachIpldata.source}  width={150} height={150}/>
                     <h3>Trophy: {eachIpldata.trophy}</h3>
                     <h3>Captain name: {eachIpldata.c_name}</h3>
+                   {/* <ol><li>ingredients:{eachIpldata.ingredients}</li></ol> */}
                     <button className="btn">{eachIpldata.button}</button>
             </div>
             </center>

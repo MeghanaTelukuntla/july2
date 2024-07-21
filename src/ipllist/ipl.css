@@ -40,7 +40,9 @@ gap: 150px;
     text-align: center;
     background-color: #d1e189;
     width: 300%;
+    position: sticky;
 }
 .btn{
     background-color: blanchedalmond;
+    
 }
