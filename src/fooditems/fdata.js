@@ -1,9 +1,13 @@
-import { Fooddata } from "./items";
+import { Fooddata } from "./food";
 import "./food.css"
 const Eachrecipe=()=>{
+    
     return(
+       <>
+       <div><center><h1 style={{color:"lightcoral"}}>OUR MENU</h1></center></div>
         <div className="b">
             {Fooddata.recipes.map((recipe)=>(
+             
                <div key={recipe.id} className="a">
                 <center><h2 style={{color:"red"}}>{recipe.name}</h2></center>
                 <center><img src={recipe.image} height={150} width={150}></img></center>
@@ -14,7 +18,7 @@ const Eachrecipe=()=>{
             ))}
           </ul>
           <ul>
-            <h2 style={{color:"grey"}}>Instructions to prepare a recipe</h2>
+            <h2 style={{color:"grey"}}>Instructions to prepare {recipe.name}</h2> 
             {recipe.instructions.map((instruct, index) => (
               <li key={index}>{instruct}</li>
             ))}
@@ -23,6 +27,7 @@ const Eachrecipe=()=>{
 
             ))}
         </div>
+        </>
     );
 };
 export default Eachrecipe;
