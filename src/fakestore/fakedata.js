@@ -1,7 +1,7 @@
 import { Fakedata } from "./fakeapi";
 import "./fake.css"
 import CustomAccordion from "../bootstrap/accordion";
-import CustomSpinner from "../spinner/customspinner";
+
 const Data = () => {
   return (
     <div className="car"> 
@@ -12,7 +12,7 @@ const Data = () => {
           <br />
           <p>{eachData.description}</p>
           {/* <CustomAccordion/> */}
-          {/* <CustomSpinner/> */}
+          
         </div>
       ))}
     </div>

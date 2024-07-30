@@ -8,18 +8,20 @@ import Cards from './cards/cards';
 import CustomButton from './button/custombutton';
 import style from './App.module.css'
 import CustomAccordion from './bootstrap/accordion';
-
+import ConditionalRendering from './conditionalrendering/condtion';
+import CustomClassButton from './classcomponents/btn';
 // const students=["Meghana","Rohan","Rahul","Priya","Achyuth"]
 const App =() => {
   return (
    <div>
-  <Data/>
+  {/* <Data/> */}
   {/* <Ipl_List/> */}
   {/* <Eachrecipe/> */}
    {/* <Cards/> */}
   {/* <CustomButton className={style.button}>How are you</CustomButton> */}
  {/* <CustomAccordion/> */}
-    
+    {/* <ConditionalRendering/> */}
+    <CustomClassButton/>
    </div>
   );
 }
