@@ -3,7 +3,7 @@
     margin: 3px;
     background-color: gray;
 }
-.card{
+.car{
     display: grid;
     grid-template-columns: auto auto auto;
 }

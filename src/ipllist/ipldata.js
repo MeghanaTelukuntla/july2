@@ -10,17 +10,7 @@ const Ipldata=[
         c_name:"M.S Dhoni",
         // about:"The Chennai Super Kings (abbreviated as CSK) is a franchise cricket team standing for Chennai, Tamil Nadu (India), playing in the Indian Premier League (IPL). Founded in 2008, the team played its home matches at the M. A. Chidambaram Stadium in Chennai."
         button:"See More",
-        // ingredients: [
-        //     "All-purpose flour",
-        //     "Butter, softened",
-        //     "Brown sugar",
-        //     "White sugar",
-        //     "Eggs",
-        //     "Vanilla extract",
-        //     "Baking soda",
-        //     "Salt",
-        //     "Chocolate chips"
-        //   ],
+        
 },{
 
     name:"Sun Risers Hyderabad",

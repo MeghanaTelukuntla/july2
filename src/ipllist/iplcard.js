@@ -1,7 +1,13 @@
 import Ipldata from "./ipldata"
 import "./ipl.css"
+import CustomProgress from "../bootstrap/progress"
 const Ipl_List=()=>{
     const {name,source,trophy,c_name,button}=Ipldata
+    const calculateper=(input)=>{
+        const base=100
+        let percentage=(input/base)*100
+        return percentage
+    }
     return(
         <>
         <div className="nav">
@@ -22,7 +28,10 @@ const Ipl_List=()=>{
                     <h3>Trophy: {eachIpldata.trophy}</h3>
                     <h3>Captain name: {eachIpldata.c_name}</h3>
                    {/* <ol><li>ingredients:{eachIpldata.ingredients}</li></ol> */}
-                    <button className="btn">{eachIpldata.button}</button>
+                    <button className="btn">{eachIpldata.button}</button><br></br>
+                    
+                    <CustomProgress scale={calculateper(eachIpldata.trophy)}/>
+                    
             </div>
             </center>
         )
