@@ -1,0 +1,14 @@
+.tableStyle  {
+     /* borderCollapse: collapse; */
+     border: 2px solid red;
+    width :100px;
+}
+ .headStyle {
+    border: 1px solid black;
+   padding :8px;
+}
+
+ .bodyStyle{
+    border: 1px solid black;
+    padding :8px;
+}

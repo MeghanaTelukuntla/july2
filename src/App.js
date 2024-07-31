@@ -15,6 +15,10 @@ import CounterApp from './counter app/counterapp';
 import Counter from './counter app/counter';
 import SquareComponent from './counter app/squaretask';
 import Fetchexample from './counter app/fetchexample';
+import Reciperlist from './counter app/reciperlist';
+import RecipeeeList from './18julytask/tables';
+import CountryList from './18julytask/country';
+
 // const students=["Meghana","Rohan","Rahul","Priya","Achyuth"]
 const App =() => {
   return (
@@ -31,8 +35,10 @@ const App =() => {
    {/* <CounterApp/> */}
    {/* <Counter/> */}
    {/* <SquareComponent/> */}
-
-   <Fetchexample/>
+   {/* <Reciperlist/> */}
+   {/* <Fetchexample/> */}
+   {/* <RecipeeeList/> */}
+   <CountryList/>
    </div>
   );
 }
