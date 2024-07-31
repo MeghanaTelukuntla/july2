@@ -10,6 +10,8 @@ import style from './App.module.css'
 import CustomAccordion from './bootstrap/accordion';
 import ConditionalRendering from './conditionalrendering/condtion';
 import CustomClassButton from './classcomponents/btn';
+import SubscribeButton from './classcomponents/subscribebutton';
+import CounterApp from './counter app/counterapp';
 // const students=["Meghana","Rohan","Rahul","Priya","Achyuth"]
 const App =() => {
   return (
@@ -21,7 +23,9 @@ const App =() => {
   {/* <CustomButton className={style.button}>How are you</CustomButton> */}
  {/* <CustomAccordion/> */}
     {/* <ConditionalRendering/> */}
-    <CustomClassButton/>
+    {/* <CustomClassButton/> */}
+    {/* <SubscribeButton/> */}
+   <CounterApp/>
    </div>
   );
 }
