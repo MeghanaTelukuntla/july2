@@ -1,0 +1,17 @@
+
+
+
+.even{
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+    background-color: gray;
+    display: inline-block;
+}
+.odd{
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+    background-color: blue;
+    display: inline-block;
+}

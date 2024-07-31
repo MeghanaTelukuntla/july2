@@ -12,6 +12,9 @@ import ConditionalRendering from './conditionalrendering/condtion';
 import CustomClassButton from './classcomponents/btn';
 import SubscribeButton from './classcomponents/subscribebutton';
 import CounterApp from './counter app/counterapp';
+import Counter from './counter app/counter';
+import SquareComponent from './counter app/squaretask';
+import Fetchexample from './counter app/fetchexample';
 // const students=["Meghana","Rohan","Rahul","Priya","Achyuth"]
 const App =() => {
   return (
@@ -25,7 +28,11 @@ const App =() => {
     {/* <ConditionalRendering/> */}
     {/* <CustomClassButton/> */}
     {/* <SubscribeButton/> */}
-   <CounterApp/>
+   {/* <CounterApp/> */}
+   {/* <Counter/> */}
+   {/* <SquareComponent/> */}
+
+   <Fetchexample/>
    </div>
   );
 }
