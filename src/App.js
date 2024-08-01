@@ -18,6 +18,9 @@ import Fetchexample from './counter app/fetchexample';
 import Reciperlist from './counter app/reciperlist';
 import RecipeeeList from './18julytask/tables';
 import CountryList from './18julytask/country';
+import MountingComponent from './classcomponents/mounting/mounting';
+import Updating from './classcomponents/updating';
+import Unmounting from './classcomponents/mounting/unmounting';
 
 // const students=["Meghana","Rohan","Rahul","Priya","Achyuth"]
 const App =() => {
@@ -38,7 +41,10 @@ const App =() => {
    {/* <Reciperlist/> */}
    {/* <Fetchexample/> */}
    {/* <RecipeeeList/> */}
-   <CountryList/>
+   {/* <CountryList/> */}
+   {/* <MountingComponent/> */}
+   {/* <Updating/> */}
+   {/* <Unmounting/> */}
    </div>
   );
 }
