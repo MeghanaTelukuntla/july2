@@ -21,7 +21,7 @@ import CountryList from './18julytask/country';
 import MountingComponent from './classcomponents/mounting/mounting';
 import Updating from './classcomponents/updating';
 import Unmounting from './classcomponents/mounting/unmounting';
-
+import Task from './july 20 task/july20';
 // const students=["Meghana","Rohan","Rahul","Priya","Achyuth"]
 const App =() => {
   return (
@@ -45,6 +45,7 @@ const App =() => {
    {/* <MountingComponent/> */}
    {/* <Updating/> */}
    {/* <Unmounting/> */}
+   <Task/>
    </div>
   );
 }
