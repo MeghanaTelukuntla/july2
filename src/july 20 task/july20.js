@@ -9,6 +9,7 @@ class Task extends Component {
     products: [],
     loader: true,
     error: false,
+    searchTerm: "", // Add search term state
   };
 
   fetchUsersAndProducts = async () => {
@@ -37,23 +38,40 @@ class Task extends Component {
     this.fetchUsersAndProducts();
   }
 
+  handleSearch = (event) => {
+    this.setState({ searchTerm: event.target.value });
+  }
+
   render() {
+    const { users, products, loader, searchTerm } = this.state;
+
+    const filteredUsers = users.filter(user => 
+      user.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
+      user.username.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
     return (
       <React.Fragment>
-       <center><h2>Alumuni of College</h2></center>
-        {this.state.loader ? (
+        <h2>Hello</h2>
+        <input 
+          type="text" 
+          className="search-input" 
+          placeholder="Search by name or username" 
+          value={searchTerm}
+          onChange={this.handleSearch} 
+        />
+        {loader ? (
           <h3>Please wait........</h3>
         ) : (
           <div className="card-container">
-            {this.state.users.map((each, index) => {
+            {filteredUsers.map((each, index) => {
               const { name, id, username } = each;
-              const productImage = this.state.products[index]?.image;
+              const productImage = products[index]?.image;
               return (
                 <div className="card" key={id}>
-                     {productImage && <img src={productImage} alt={name} height={100} width={100} />}
                   <h4>{name}</h4>
                   <h2>{username}</h2>
-                 
+                  {productImage && <img src={productImage} alt={name} />}
                 </div>
               );
             })}

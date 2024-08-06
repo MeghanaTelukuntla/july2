@@ -23,6 +23,10 @@ import Updating from './classcomponents/updating';
 import Unmounting from './classcomponents/mounting/unmounting';
 import Task from './july 20 task/july20';
 import Purecomponent from './purecomponent/parent';
+import Usestateexample1 from './hooks/usestateex1';
+import UsestateExample2 from './hooks/usestateEx2';
+import Recipetask from './hooks/usestatetask';
+import UseStateSquare from './hooks/usestatesquare';
 // const students=["Meghana","Rohan","Rahul","Priya","Achyuth"]
 const App =() => {
   return (
@@ -47,7 +51,11 @@ const App =() => {
    {/* <Updating/> */}
    {/* <Unmounting/> */}
    {/* <Task/> */}
-  <Purecomponent/>
+  {/* <Purecomponent/> */}
+  {/* <Usestateexample1/> */}
+  {/* <UsestateExample2/> */}
+  {/* <Recipetask/> */}
+  <UseStateSquare/>
    </div>
   );
 }
