@@ -16,12 +16,12 @@ const Eachrecipe=()=>{
               <li>{ingredient}</li>
             ))}
           </ul>
-          <ul>
+          {/* <ul>
             <h2 style={{color:"grey"}}>Instructions to prepare {recipe.name}</h2> 
             {recipe.instructions.map((instruct) => (
               <li>{instruct}</li>
             ))}
-          </ul>
+          </ul> */}
                 </div>
             ))}
         </div>

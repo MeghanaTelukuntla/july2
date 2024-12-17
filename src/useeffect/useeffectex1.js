@@ -8,6 +8,7 @@ const ShowGreet=()=>{
     const[count,setCount]=useState(0);//case 2
     useEffect(()=>{
         console.log('use Effect executed....')//it is automatically invoking
+        document.title="Hello user";
         greetsHandler();
         fetchRecipes();
         // window.addEventListener("mousemove",mouseTrack);
