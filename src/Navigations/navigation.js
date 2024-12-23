@@ -24,6 +24,7 @@ const NavigationStack=()=>{
              <Route path="/blog" element={<BlogScreen/>}/>
              <Route path="*" element={<InavlidScreen/>}/>
              <Route path="recipes" element={<UserScreen/>}/>
+             {/* Nested Navigations example */}
              <Route path="doctors" element={<DoctorsScreen/>}> 
              <Route path="new" element={<NewDoctors />} />
              <Route path="old" element={<OldDoctors />} />

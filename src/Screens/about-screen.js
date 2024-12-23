@@ -1,4 +1,5 @@
 
+import FormInput from "../Forms/forminput";
 import Navbar from "../navbar/navbars";
 
 const AboutScreen=()=>{
@@ -6,6 +7,7 @@ const AboutScreen=()=>{
         <>
         <Navbar/>
         <h3>Welcome to About Screen</h3>
+        <FormInput/>
         </>
     );
 };

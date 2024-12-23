@@ -1,25 +1,24 @@
-
-import FakeTable from './faketables/ft';
-import UncontrolledForm from './Forms/uncontrolledforms';
-import Loginsignup from './components/loginsignup';
-import logo from './logo.svg';
-import ControlledForm from './Forms/controlledform';
+import React, { createContext } from "react";
 import NavigationStack from './Navigations/navigation';
+import { useState } from "react";
+export const DataContext = createContext(); // Exporting DataContext
 
-// import './App.css';
+const App = () => {
+  const[username,setUserName]=useState("Meghana")
+  const[darkMode,setDarkMode]=useState(true)
 
-
-const App =() => {
+  const changeUsername=(newName)=>{
+    setUserName(newName)
+  }
   return (
-//    <div>
-// {/* <UncontrolledForm/> */}
-// {/* <ControlledForm/> */}
-// {/* <Loginsignup/> */}
-
-//    </div>
-<NavigationStack/>
+    <DataContext.Provider value={{
+      username,
+      darkMode,
+      changeUsername,
+    }}>
+      <NavigationStack />
+    </DataContext.Provider>
   );
-}
+};
 
 export default App;
-

@@ -1,13 +1,17 @@
-// import { Navbar } from "react-bootstrap";
+import { useContext } from "react";
 import Navbar from "../navbar/navbars";
+import { DataContext } from "../App"; // Importing DataContext correctly
 
+const HomeScreen = () => {
+  const {username} = useContext(DataContext);
+//   console.log(globalData, "globalData");
 
-const HomeScreen=()=>{
-    return(
-        <>
-       <Navbar/>
-        <h3>Welcome to Home Screen</h3>
-        </>
-    );
+  return (
+    <>
+      <Navbar />
+      <h3>Welcome {username}</h3>
+    </>
+  );
 };
+
 export default HomeScreen;
