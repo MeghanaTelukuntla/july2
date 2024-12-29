@@ -33,9 +33,7 @@ const ShowGreet=()=>{
     if(status===200){
       console.log(data)
     }
-        }catch(err){
-           
-        }
+        }catch(err){}
     }
     return(
         <>
